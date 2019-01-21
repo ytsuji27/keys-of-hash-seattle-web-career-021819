@@ -4,6 +4,7 @@ class Hash
     arguments.each do |x|
       self.each do |k, v|
         if v == x
+          animals << k
     end
   end
 end
