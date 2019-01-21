@@ -5,6 +5,8 @@ class Hash
       self.each do |k, v|
         if v == x
           animals << k
+        end
+      end
     end
   end
 end
