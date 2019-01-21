@@ -4,6 +4,5 @@ class Hash
     arguments.each do |x|
       animals << x
     end
-    animals
   end
 end
