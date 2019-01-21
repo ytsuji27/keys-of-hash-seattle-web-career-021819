@@ -2,7 +2,8 @@ class Hash
   def keys_of(*arguments)
     animals = []
     arguments.each do |x|
-      puts x
+      animals << x
     end
   end
+  animals
 end
