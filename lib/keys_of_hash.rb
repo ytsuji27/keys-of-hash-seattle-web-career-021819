@@ -3,7 +3,7 @@ class Hash
     animals = []
     arguments.each do |x|
       self.each do |k, v|
-        
+        if v == k
     end
   end
 end
